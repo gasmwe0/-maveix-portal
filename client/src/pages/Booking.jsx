@@ -1,1 +1,1 @@
-// Booking page JSX component
+// Booking component

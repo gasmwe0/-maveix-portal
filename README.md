@@ -1,6 +1,13 @@
-# Maveix Portal - Full Project Guide
+# Maveix Portal Full Setup
+## Run Instructions:
+Backend:
+1. `cd server`
+2. `npm install`
+3. `cp .env.example .env`
+4. Fill in Mongo URI, Stripe Key
+5. `npm run dev`
 
-## How to run:
-1. Fill in `.env` in /server
-2. Run backend: `cd server && npm install && npm run dev`
-3. Run frontend: `cd client && npm install && npm start`
+Frontend:
+1. `cd client`
+2. `npm install`
+3. `npm start`
